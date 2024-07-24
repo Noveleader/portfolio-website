@@ -1,0 +1,66 @@
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(5px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Container for centering content */
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+  background-color: rgb(var(--background-rgb)); /* Optional background color */
+  padding: 0 2rem; /* Add horizontal padding */
+}
+
+.name {
+  animation: slideUp 0.5s ease-in-out; /* Apply the slide-up animation */
+  font-family: "Bebas Neue", sans-serif; /* Font family for the text */
+  text-align: center; /* Center align text inside this div */
+  width: 100%; /* Ensure the name spans the full width */
+}
+
+.mainName {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  font-size: 25vw; /* Responsive font size */
+  color: white; /* Adjust the text color as needed */
+  line-height: 1.05; /* Adjust line height to reduce gap */
+}
+
+.description {
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+  font-size: 2vw; /* Responsive font size */
+  color: white; /* Adjust text color as needed */
+  line-height: 1; /* Adjust line height for better spacing */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .mainName {
+    font-size: 25vw; /* Increase font size for smaller screens */
+    line-height: 1.2;
+  }
+
+  .description {
+    font-size: 4vw; /* Increase font size for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .mainName {
+    font-size: 25vw; /* Increase font size for very small screens */
+  }
+
+  .description {
+    font-size: 6vw; /* Increase font size for very small screens */
+  }
+}

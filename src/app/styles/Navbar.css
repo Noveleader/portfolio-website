@@ -1,0 +1,35 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding-top: 10px;
+  font-family: "Bebas Neue", sans-serif;
+  width: 100%; /* Ensure it spans the full width */
+  box-sizing: border-box; /* Include padding in width calculation */
+}
+
+nav p {
+  margin: 0;
+  font-size: 1.3em; /* Adjust the font size as needed */
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .navbar {
+    padding-top: 5px; /* Adjust padding for smaller screens */
+  }
+
+  nav p {
+    font-size: 1em; /* Adjust font size for smaller screens */
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar {
+    padding-top: 2px; /* Adjust padding for very small screens */
+  }
+
+  nav p {
+    font-size: 0.7em; /* Adjust font size for very small screens */
+  }
+}
