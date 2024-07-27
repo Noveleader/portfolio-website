@@ -1,0 +1,76 @@
+.cryptoPrices {
+  font-family: "Bebas Neue", sans-serif;
+  margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden; /* Hide overflowing content */
+  position: relative;
+  white-space: nowrap; /* Prevent line breaks */
+  gap: 2em; /* Add some spacing between the cards if there are multiple */
+}
+
+.cardWrapper {
+  display: inline-flex;
+  white-space: nowrap;
+  animation: moveCards linear infinite; /* Adjust timing as needed */
+}
+
+.cardWrapper.reverse {
+  animation: moveCardsReverse linear infinite; /* Adjust timing as needed */
+}
+
+.card1 {
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid;
+  padding: 1em; /* Add some padding inside the card */
+  border-radius: 30px; /* Optional: add rounded corners */
+  background-color: white; /* Optional: add a background color */
+  margin-right: 0.8%;
+  box-sizing: border-box;
+  overflow: hidden;
+  min-width: 200px; /* Minimum width for each card */
+  flex: 1; /* Allow card to grow based on content */
+}
+
+.card1:hover {
+  transform: scale(1.05); /* Zoom effect on hover */
+}
+
+.card1 img {
+  width: 40px; /* Set a specific width for the image */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Add some space between the image and the text */
+}
+
+.card1 img:hover {
+  transform: scale(1.2); /* Zoom effect on hover */
+}
+
+.card1 p {
+  font-size: 1.3em;
+  margin: 0; /* Remove default margin */
+  display: flex;
+  flex-direction: column; /* Stack the text and price vertically */
+  color: #000;
+  margin-right: 10px;
+}
+
+@keyframes moveCards {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+@keyframes moveCardsReverse {
+  from {
+    transform: translateX(-50%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}

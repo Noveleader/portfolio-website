@@ -23,3 +23,8 @@ export default function RootLayout({
     </html>
   );
 }
+
+// export async function getServerSideProps() {
+//   await fetch(`${process.env.NEXT_PUBLIC_BASE_URL}/api/fetchPrices`);
+//   return { props: {} };
+// }

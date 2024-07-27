@@ -1,0 +1,67 @@
+.Projects {
+  font-family: "Bebas Neue", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  margin-bottom: 5%;
+}
+
+p {
+  margin-top: 5%;
+  padding: 0;
+  font-size: 2vw;
+  line-height: 1;
+}
+
+.ProjectsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  width: 80%;
+  margin-top: 2%;
+}
+
+.ProjectCard {
+  background-color: #1e1e1e; /* Dark background */
+  padding: 20px;
+  border-radius: 30px;
+  text-align: left;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ProjectCard h3 {
+  margin: 0;
+  font-size: 1.5vw;
+}
+
+.Description {
+  font-size: 1vw;
+  color: #ccc;
+  margin-top: 10px;
+}
+
+.CardFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.Language {
+  font-size: 0.9vw;
+  color: #5a9bd4; /* Language color */
+}
+
+.Stars {
+  font-size: 0.9vw;
+  color: #ffd700; /* Gold color for stars */
+}
+
+.Updated {
+  font-size: 0.9vw;
+  color: #777;
+}
