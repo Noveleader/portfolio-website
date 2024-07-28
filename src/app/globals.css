@@ -23,6 +23,36 @@ body {
   font-family: "Bebas Neue", sans-serif;
   color: rgb(var(--foreground-rgb));
   background-color: rgb(var(--background-rgb));
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+  scrollbar-width: thin; /* Width of the scrollbar */
+  scrollbar-color: #888 #1e1e1e; /* Color of the scrollbar handle and track */
+}
+
+/* Style the scrollbar for WebKit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 10px; /* Width of the scrollbar */
+}
+
+/* Style the scrollbar track */
+::-webkit-scrollbar-track {
+  background: #1e1e1e; /* Background color of the scrollbar track */
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* Style the scrollbar handle */
+::-webkit-scrollbar-thumb {
+  background: #888; /* Color of the scrollbar handle */
+  border-radius: 10px; /* Rounded corners */
+}
+
+/* Hover effect for scrollbar handle */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Darker color when hovered */
 }
 
 @layer utilities {

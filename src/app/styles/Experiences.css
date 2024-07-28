@@ -1,10 +1,9 @@
-.Projects {
+.Experiences {
   font-family: "Bebas Neue", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
   color: white;
-  margin-bottom: 3%;
 }
 
 p {
@@ -14,7 +13,7 @@ p {
   line-height: 1;
 }
 
-.ProjectsGrid {
+.ExperiencesGrid {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 
@@ -25,7 +24,7 @@ p {
   margin-top: 2%;
 }
 
-.ProjectCard {
+.ExperienceCard {
   background-color: #1e1e1e; /* Dark background */
   padding: 20px;
   border-radius: 30px;
@@ -36,11 +35,11 @@ p {
   justify-content: space-between;
 }
 
-.ProjectCard:hover {
-  transform: scale(1.05); /* Zoom effect on hover */
+.ExperienceCard:hover {
+  transform: scale(1.05);
 }
 
-.ProjectCard h3 {
+.ExperienceCard h3 {
   margin: 0;
   font-size: 1.5vw;
 }
@@ -58,19 +57,10 @@ p {
   margin-top: 10px;
 }
 
-.Language {
-  font-size: 0.9vw;
-  color: #5a9bd4; /* Language color */
-}
-
-.Stars {
-  font-size: 0.9vw;
-  color: #ffd700; /* Gold color for stars */
-}
-
-.Updated {
-  font-size: 0.9vw;
-  color: #777;
+.Duration {
+  font-size: 1vw;
+  font-weight: 400;
+  color: #5a9bd4;
 }
 
 .Arrow {
@@ -85,23 +75,23 @@ p {
     font-size: 3vw;
   }
 
-  .ProjectsGrid {
+  .ExperiencesGrid {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .ProjectCard h3 {
+  .ExperienceCard h3 {
     font-size: 1.8vw;
   }
 
-  .ProjectCard .Description {
+  .ExperienceCard .Description {
     font-size: 1.2vw;
   }
 
-  .ProjectCard .Language {
+  .ExperienceCard .Duration {
     font-size: 1.2vw;
   }
 
-  .ProjectCard .Arrow {
+  .ExperienceCard .Arrow {
     font-size: 1.5vw;
   }
 }
@@ -111,23 +101,23 @@ p {
     font-size: 3.5vw;
   }
 
-  .ProjectsGrid {
+  .ExperiencesGrid {
     grid-template-columns: 1fr;
   }
 
-  .ProjectCard h3 {
+  .ExperienceCard h3 {
     font-size: 2vw;
   }
 
-  .ProjectCard .Description {
+  .ExperienceCard .Description {
     font-size: 1.5vw;
   }
 
-  .ProjectCard .Language {
+  .ExperienceCard .Duration {
     font-size: 1.5vw;
   }
 
-  .ProjectCard .Arrow {
+  .ExperienceCard .Arrow {
     font-size: 1.8vw;
   }
 }
@@ -141,19 +131,19 @@ p {
     font-size: 4vw;
   }
 
-  .ProjectCard h3 {
+  .ExperienceCard h3 {
     font-size: 3vw;
   }
 
-  .ProjectCard .Description {
+  .ExperienceCard .Description {
     font-size: 2vw;
   }
 
-  .ProjectCard .Language {
+  .ExperienceCard .Duration {
     font-size: 2vw;
   }
 
-  .ProjectCard .Arrow {
+  .ExperienceCard .Arrow {
     font-size: 2.5vw;
   }
 }
@@ -163,23 +153,23 @@ p {
     font-size: 6vw;
   }
 
-  .ProjectCard {
+  .ExperienceCard {
     padding: 15px;
   }
 
-  .ProjectCard h3 {
+  .ExperienceCard h3 {
     font-size: 4vw;
   }
 
-  .ProjectCard .Description {
+  .ExperienceCard .Description {
     font-size: 2.5vw;
   }
 
-  .ProjectCard .Language {
+  .ExperienceCard .Duration {
     font-size: 2.5vw;
   }
 
-  .ProjectCard .Arrow {
+  .ExperienceCard .Arrow {
     font-size: 3vw;
   }
 }

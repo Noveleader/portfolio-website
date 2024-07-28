@@ -6,11 +6,13 @@
   font-family: "Bebas Neue", sans-serif;
   width: 100%; /* Ensure it spans the full width */
   box-sizing: border-box; /* Include padding in width calculation */
+  color: #5a9bd4;
 }
 
 nav p {
   margin: 0;
   font-size: 1.3em; /* Adjust the font size as needed */
+  margin-top: 1vw;
 }
 
 /* Responsive adjustments */
