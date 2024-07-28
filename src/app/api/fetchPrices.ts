@@ -22,10 +22,18 @@ const fetchPrices = async (): Promise<{ [key: string]: string }> => {
     "XMRUSDT",
   ];
 
-  const url = "https://api.binance.com/api/v3/ticker/price";
+  const url = "https://api.mexc.com/api/v3/ticker/price";
 
   try {
+    console.log("Fetching prices from Binance API");
     const response = await fetch(url);
+    if (!response.ok) {
+      const errorText = await response.text();
+      console.error(
+        `Failed to fetch prices: ${response.status} ${response.statusText}: ${errorText}`
+      );
+      throw new Error(`HTTP error! status: ${response.status}`);
+    }
     const data = await response.json();
     const prices: { [key: string]: string } = {};
 
@@ -35,7 +43,7 @@ const fetchPrices = async (): Promise<{ [key: string]: string }> => {
         prices[tokenName] = parseFloat(item.price).toFixed(2);
       }
     });
-    console.log(prices);
+    console.log("Fetched prices successfully:", prices);
     return prices;
   } catch (error) {
     console.error("Error fetching prices:", error);
