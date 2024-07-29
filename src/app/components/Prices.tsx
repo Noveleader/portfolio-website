@@ -14,7 +14,12 @@ const Prices: React.FC = () => {
   useEffect(() => {
     const fetchPrices = async () => {
       try {
-        const response = await fetch("/api/prices");
+        const response = await fetch("/api/prices", {
+          headers: {
+            "Cache-Control":
+              "no-store, no-cache, must-revalidate, proxy-revalidate",
+          },
+        });
         const data: PriceData = await response.json();
         setPrices(data);
       } catch (error) {
@@ -23,6 +28,9 @@ const Prices: React.FC = () => {
     };
 
     fetchPrices();
+    const intervalId = setInterval(fetchPrices, 1000 * 300); // Fetch prices every 300 seconds
+
+    return () => clearInterval(intervalId); // Cleanup interval on component unmount
   }, []);
 
   useEffect(() => {

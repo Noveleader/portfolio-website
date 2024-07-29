@@ -25,8 +25,12 @@ const fetchPrices = async (): Promise<{ [key: string]: string }> => {
   const url = "https://api.mexc.com/api/v3/ticker/price";
 
   try {
-    console.log("Fetching prices from Binance API");
-    const response = await fetch(url);
+    console.log("Fetching prices from MEXC API");
+    const response = await fetch(url, {
+      headers: {
+        "Cache-Control": "no-store, max-age=0", // Prevent caching
+      },
+    });
     if (!response.ok) {
       const errorText = await response.text();
       console.error(
