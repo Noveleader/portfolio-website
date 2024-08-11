@@ -44,6 +44,18 @@
 }
 
 /* Responsive adjustments */
+@media (max-width: 1200px) {
+  .description {
+    font-size: 4vw;
+  }
+}
+
+@media (max-width: 992px) {
+  .description {
+    font-size: 4vw;
+  }
+}
+
 @media (max-width: 768px) {
   .mainName {
     font-size: 25vw; /* Increase font size for smaller screens */
