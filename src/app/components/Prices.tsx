@@ -28,9 +28,6 @@ const Prices: React.FC = () => {
     };
 
     fetchPrices();
-    const intervalId = setInterval(fetchPrices, 1000 * 300); // Fetch prices every 300 seconds
-
-    return () => clearInterval(intervalId); // Cleanup interval on component unmount
   }, []);
 
   useEffect(() => {
