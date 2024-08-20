@@ -7,11 +7,11 @@ export const repositories = [
     url: "https://github.com/Noveleader/gmx-v2-subgraph-envio",
   },
   {
-    name: "PeerLinkDex-SuperHack",
+    name: "PeerLinkDex",
     description:
       "The project is an Over-The-Counter DEX which lets it users to create an escrow arrangement to exchange tokens between each other",
     language: "Solidity, TypeScript",
-    url: "https://github.com/Noveleader/PeerLinkDex-Superhack",
+    url: "https://github.com/Noveleader/PeerLinkDex",
   },
   {
     name: "DeriPulse",
