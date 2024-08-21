@@ -5,18 +5,16 @@ import "../styles/CV.css";
 const CV: React.FC = () => {
   return (
     <div className="buttonContainer">
-      <button className="downloadCVButton">
+      <a
+        href="/AnkushJhaResume.pdf"
+        className="downloadCVButton"
+        target="_blank"
+        rel="noopener noreferrer"
+        download
+      >
         <p>Download CV</p>
-        <a
-          href="/AnkushJhaResume.pdf"
-          className="Arrow"
-          target="_blank"
-          rel="noopener noreferrer"
-          download
-        >
-          <i className="fas fa-chevron-right"></i>
-        </a>
-      </button>
+        <i className="fas fa-chevron-right Arrow"></i>
+      </a>
     </div>
   );
 };
