@@ -1,6 +1,7 @@
 "use client";
 import React, { useEffect, useState, useRef } from "react";
 import "../styles/Prices.css";
+import { cards, cards2 } from "../utils/data";
 
 interface PriceData {
   [key: string]: string;
@@ -42,50 +43,40 @@ const Prices: React.FC = () => {
     }
   }, [prices]);
 
-  const cards = [
-    { img: "coinsLogo/bitcoin.png", name: "BTC" },
-    { img: "coinsLogo/eth.png", name: "ETH" },
-    { img: "coinsLogo/ada.png", name: "ADA" },
-    { img: "coinsLogo/xrp.png", name: "XRP" },
-    { img: "coinsLogo/bnb.png", name: "BNB" },
-    { img: "coinsLogo/sol.png", name: "SOL" },
-    { img: "coinsLogo/doge.png", name: "DOGE" },
-    { img: "coinsLogo/mkr.png", name: "MKR" },
-    { img: "coinsLogo/tron.png", name: "TRX" },
-    { img: "coinsLogo/avax.png", name: "AVAX" },
-  ];
-
-  const cards2 = [
-    { img: "coinsLogo/link.png", name: "LINK" },
-    { img: "coinsLogo/near.png", name: "NEAR" },
-    { img: "coinsLogo/ltc.png", name: "LTC" },
-    { img: "coinsLogo/matic.png", name: "MATIC" },
-    { img: "coinsLogo/uni.png", name: "UNI" },
-    { img: "coinsLogo/icp.png", name: "ICP" },
-    { img: "coinsLogo/arb.png", name: "ARB" },
-    { img: "coinsLogo/apt.png", name: "APT" },
-    { img: "coinsLogo/xlm.png", name: "XLM" },
-    { img: "coinsLogo/xmr.png", name: "XMR" },
-  ];
-
   return (
     <div className="cryptoPrices">
       <div className="cardWrapper" ref={cardWrapperRef1}>
         {cards.concat(cards).map((card, index) => (
-          <div className="card1" key={index}>
+          <a
+            href={card.cmcLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            key={index}
+            className="card1"
+          >
+            {/* <div className="card1" key={index}> */}
             <img src={card.img} alt={`${card.name} Logo`} />
             <p>{card.name}</p>
             <p>${prices[card.name]}</p>
-          </div>
+            {/* </div> */}
+          </a>
         ))}
       </div>
       <div className="cardWrapper reverse" ref={cardWrapperRef2}>
         {cards2.concat(cards2).map((card, index) => (
-          <div className="card1" key={index}>
+          <a
+            href={card.cmcLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            key={index}
+            className="card1"
+          >
+            {/* <div className="card1" key={index}> */}
             <img src={card.img} alt={`${card.name} Logo`} />
             <p>{card.name}</p>
             <p>${prices[card.name]}</p>
-          </div>
+            {/* </div> */}
+          </a>
         ))}
       </div>
     </div>

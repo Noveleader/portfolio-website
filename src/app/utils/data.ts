@@ -81,3 +81,109 @@ export const repositories = [
   //   url: "https://github.com/Noveleader/api-cmc",
   // },
 ];
+
+export const cards = [
+  {
+    img: "coinsLogo/bitcoin.png",
+    name: "BTC",
+    cmcLink: "https://coinmarketcap.com/currencies/bitcoin/",
+  },
+  {
+    img: "coinsLogo/eth.png",
+    name: "ETH",
+    cmcLink: "https://coinmarketcap.com/currencies/ethereum/",
+  },
+  {
+    img: "coinsLogo/ada.png",
+    name: "ADA",
+    cmcLink: "https://coinmarketcap.com/currencies/cardano/",
+  },
+  {
+    img: "coinsLogo/xrp.png",
+    name: "XRP",
+    cmcLink: "https://coinmarketcap.com/currencies/xrp/",
+  },
+  {
+    img: "coinsLogo/bnb.png",
+    name: "BNB",
+    cmcLink: "https://coinmarketcap.com/currencies/bnb/",
+  },
+  {
+    img: "coinsLogo/sol.png",
+    name: "SOL",
+    cmcLink: "https://coinmarketcap.com/currencies/solana/",
+  },
+  {
+    img: "coinsLogo/doge.png",
+    name: "DOGE",
+    cmcLink: "https://coinmarketcap.com/currencies/dogecoin/",
+  },
+  {
+    img: "coinsLogo/mkr.png",
+    name: "MKR",
+    cmcLink: "https://coinmarketcap.com/currencies/maker/",
+  },
+  {
+    img: "coinsLogo/tron.png",
+    name: "TRX",
+    cmcLink: "https://coinmarketcap.com/currencies/tron/",
+  },
+  {
+    img: "coinsLogo/avax.png",
+    name: "AVAX",
+    cmcLink: "https://coinmarketcap.com/currencies/avalanche/",
+  },
+];
+
+export const cards2 = [
+  {
+    img: "coinsLogo/link.png",
+    name: "LINK",
+    cmcLink: "https://coinmarketcap.com/currencies/chainlink/",
+  },
+  {
+    img: "coinsLogo/near.png",
+    name: "NEAR",
+    cmcLink: "https://coinmarketcap.com/currencies/near-protocol/",
+  },
+  {
+    img: "coinsLogo/ltc.png",
+    name: "LTC",
+    cmcLink: "https://coinmarketcap.com/currencies/litecoin/",
+  },
+  {
+    img: "coinsLogo/matic.png",
+    name: "MATIC",
+    cmcLink: "https://coinmarketcap.com/currencies/polygon/",
+  },
+  {
+    img: "coinsLogo/uni.png",
+    name: "UNI",
+    cmcLink: "https://coinmarketcap.com/currencies/uniswap/",
+  },
+  {
+    img: "coinsLogo/icp.png",
+    name: "ICP",
+    cmcLink: "https://coinmarketcap.com/currencies/internet-computer/",
+  },
+  {
+    img: "coinsLogo/arb.png",
+    name: "ARB",
+    cmcLink: "https://coinmarketcap.com/currencies/arbitrum/",
+  },
+  {
+    img: "coinsLogo/apt.png",
+    name: "APT",
+    cmcLink: "https://coinmarketcap.com/currencies/aptos/",
+  },
+  {
+    img: "coinsLogo/xlm.png",
+    name: "XLM",
+    cmcLink: "https://coinmarketcap.com/currencies/stellar/",
+  },
+  {
+    img: "coinsLogo/xmr.png",
+    name: "XMR",
+    cmcLink: "https://coinmarketcap.com/currencies/monero/",
+  },
+];
