@@ -152,8 +152,8 @@ export const cards2 = [
     cmcLink: "https://coinmarketcap.com/currencies/litecoin/",
   },
   {
-    img: "coinsLogo/matic.png",
-    name: "MATIC",
+    img: "coinsLogo/pol.png",
+    name: "POL",
     cmcLink: "https://coinmarketcap.com/currencies/polygon/",
   },
   {

@@ -13,7 +13,7 @@ const fetchPrices = async (): Promise<{ [key: string]: string }> => {
     "LINKUSDT",
     "NEARUSDT",
     "LTCUSDT",
-    "MATICUSDT",
+    "POLUSDT",
     "UNIUSDT",
     "ICPUSDT",
     "ARBUSDT",
