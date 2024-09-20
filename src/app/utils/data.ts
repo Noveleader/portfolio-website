@@ -1,7 +1,13 @@
 export const experience = [
   {
+    name: "The Block (Research Analyst)",
+    description:
+      "I conduct research on current crypto trends and analyze various sectors within the crypto industry. My work involves data analysis, on-chain metrics evaluation, and other relevant research activities.",
+    duration: "September 2024 - Present",
+    url: "https://theblock.co/",
+  },
+  {
     name: "FXDX (Backend Developer)",
-    logo: "coinsLogo/fxdx.png",
     description:
       "Led the v2 subgraph creation and migration to Envio, enhanced data retrieval, developed real-time price APIs with Redis caching, designed backend keepers for asset management, and pitched our product to potential partners.",
     duration: "May 2024 - July 2024",
@@ -9,7 +15,6 @@ export const experience = [
   },
   {
     name: "FXDX (Blockchain Developer)",
-    logo: "coinsLogo/fxdx.png",
     description:
       "Built the backend for the airdrop dashboard, optimized calculations with parallel queries, created subgraphs for IDO contract testing and vesting tracking, and took various BD initiatives.",
     duration: "August 2023 - December 2023",
@@ -17,9 +22,8 @@ export const experience = [
   },
   {
     name: "Kryptomerch (Community Lead)",
-    logo: "coinsLogo/kryptomerch.jpg",
     description:
-      "I managed Kryptomerch's socials and contributed to the successful IDO of the DB Cooper NFT collection which was launched on Kryptomerch NFT marketplace.",
+      "Managed Kryptomerch's socials and contributed to the successful IDO of the DB Cooper NFT collection which was launched on Kryptomerch NFT marketplace.",
     duration: "August 2022 - May 2023",
     url: "https://kryptomerch.io/",
   },
