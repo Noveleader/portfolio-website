@@ -1,0 +1,22 @@
+.magnetLines-container {
+    display: grid;
+    grid-template-columns: repeat(var(--columns), 1fr);
+    grid-template-rows: repeat(var(--rows), 1fr);
+    position: fixed;
+    margin-top: 2%;
+    margin-left: 5%;
+    z-index: -1;
+  }
+  
+  .magnetLines-container span {
+    display: block;
+    transform-origin: center; /* so rotation pivots at the center */
+    will-change: transform;
+    transform: rotate(var(--rotate));
+  }
+
+@media (max-width: 576px) {
+    .magnetLines-container {
+        margin-left: 15%;
+    }
+}
