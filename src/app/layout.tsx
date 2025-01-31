@@ -8,6 +8,19 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Ankush Jha | Researcher | Developer | BD",
   description: "This is the portfolio website of Ankush Jha",
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    url: "https://noveleader.xyz/",
+    images: [
+      {
+        url: "https://noveleader.xyz/og-image.png",
+        width: 1200,
+        height: 630,
+        alt: "Ankush Jha",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
