@@ -6,7 +6,7 @@ const CV: React.FC = () => {
   return (
     <div className="buttonContainer">
       <a
-        href="/AnkushJhaResume.pdf"
+        href="/Ankush_CV.pdf"
         className="downloadCVButton"
         target="_blank"
         rel="noopener noreferrer"

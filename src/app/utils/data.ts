@@ -2,9 +2,9 @@ export const experience = [
   {
     name: "The Block (Research Analyst)",
     description:
-      "I conduct research on current crypto trends and analyze various sectors within the crypto industry. My work involves data analysis, on-chain metrics evaluation, and other relevant research activities.",
-    duration: "September 2024 - Present",
-    url: "https://theblock.co/",
+      "Conducted research on latest crypto trends and analyze various sectors within the industry. My work involved data analysis, on-chain metrics evaluation, and other relevant research activities.",
+    duration: "September 2024 - January 2025",
+    url: "https://www.theblock.co/author/ankush-jha",
   },
   {
     name: "FXDX (Backend Developer)",

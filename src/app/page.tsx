@@ -17,7 +17,7 @@ export default function Home() {
       {/* <MagnetLines /> */}
       <Navbar />
       <Name />
-      {/* <CV /> */}
+      <CV />
       <Prices />
       <Experiences />
       <Projects />

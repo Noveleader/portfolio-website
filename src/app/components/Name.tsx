@@ -5,7 +5,7 @@ const Name: React.FC = () => {
   return (
     <div className="name">
       <p className="mainName">ANKUSH JHA</p>
-      <p className="description">A FULL STACK BLOCKCHAIN DEVELOPER</p>
+      <p className="description">Researcher | Developer | BD</p>
     </div>
   );
 };

@@ -21,35 +21,21 @@
   white-space: nowrap; /* Prevent text from wrapping */
 }
 
-.downloadCVButton::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: #5a9bd4; /* Full color fill */
-  transform: scaleX(0); /* Start with no fill */
-  transform-origin: left; /* Start the fill from the left */
-  transition: transform 0.4s ease; /* Smooth fill effect */
-  z-index: 0; /* Behind the button content */
-}
-
-.downloadCVButton:hover::before {
-  transform: scaleX(1); /* Expand to full width */
+.downloadCVButton:hover {
+  transform: scale(1.05); /* Zoom effect on hover */
 }
 
 .downloadCVButton p {
   font-family: "Bebas Neue", sans-serif;
   color: black;
-  margin: 0; /* Remove margin to ensure proper centering */
+  margin-top: 1%; /* Remove margin to ensure proper centering */
   font-size: 1.4vw;
   z-index: 1; /* Ensure the text stays above the gradient */
   transition: color 0.4s ease; /* Smooth transition for the text color */
 }
 
 .downloadCVButton:hover p {
-  color: white; /* Change text color on hover */
+  color: #5a9bd4; /* Change text color on hover */
 }
 
 /* Change arrow color on hover */
@@ -98,12 +84,12 @@
   .downloadCVButton p {
     font-size: 4vw;
     margin-left: 1.5vw;
-    margin-top: 1.1vw;
+    margin-top: 0.8%;
   }
 
   .downloadCVButton .Arrow {
     font-size: 3vw;
     margin-right: 1.2vw;
-    margin-top: 0.8vw;
+    margin-top: 0.8%;
   }
 }
