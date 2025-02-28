@@ -6,7 +6,7 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Ankush Jha | Researcher | Developer | BD",
+  title: "Ankush Jha | Researcher and Developer",
   description: "This is the portfolio website of Ankush Jha",
   openGraph: {
     type: "website",
