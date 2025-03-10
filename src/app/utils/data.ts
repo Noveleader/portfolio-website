@@ -3,28 +3,28 @@ export const experience = [
     name: "The Block (Research Analyst)",
     description:
       "Conducted research on latest crypto trends and analyze various sectors within the industry. My work involved data analysis, on-chain metrics evaluation, and other relevant research activities.",
-    duration: "September 2024 - January 2025",
+    duration: "Sep 2024 - Feb 2025",
     url: "https://www.theblock.co/author/ankush-jha",
   },
   {
     name: "FXDX (Backend Developer)",
     description:
       "Led the v2 subgraph creation and migration to Envio, enhanced data retrieval, developed real-time price APIs with Redis caching, designed backend keepers for asset management, and pitched our product to potential partners.",
-    duration: "May 2024 - July 2024",
+    duration: "May 2024 - Jul 2024",
     url: "https://fxdx.exchange/",
   },
   {
     name: "FXDX (Blockchain Developer)",
     description:
       "Built the backend for the airdrop dashboard, optimized calculations with parallel queries, created subgraphs for IDO contract testing and vesting tracking, and took various BD initiatives.",
-    duration: "August 2023 - December 2023",
+    duration: "Aug 2023 - Dec 2023",
     url: "https://fxdx.exchange/",
   },
   {
     name: "Kryptomerch (Community Lead)",
     description:
       "Managed Kryptomerch's socials and contributed to the successful IDO of the DB Cooper NFT collection which was launched on Kryptomerch NFT marketplace.",
-    duration: "August 2022 - May 2023",
+    duration: "Aug 2022 - May 2023",
     url: "https://kryptomerch.io/",
   },
 ];
