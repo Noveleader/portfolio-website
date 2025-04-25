@@ -5,7 +5,7 @@ const Navbar: React.FC = () => {
     return (
         <div className="navbar"> 
             <nav>
-                <p>@noveleader</p>
+                <p>Ankush Jha</p>
             </nav>
         </div>
     )
