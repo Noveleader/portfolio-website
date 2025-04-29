@@ -6,8 +6,8 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Ankush Jha | Researcher and Developer",
-  description: "This is the portfolio website of Ankush Jha",
+  title: "Noveleader | Researcher and Developer",
+  description: "This is the portfolio website of Noveleader",
   openGraph: {
     type: "website",
     locale: "en_US",
@@ -17,7 +17,7 @@ export const metadata: Metadata = {
         url: "https://noveleader.xyz/og-image.png",
         width: 1200,
         height: 630,
-        alt: "Ankush Jha",
+        alt: "Noveleader",
       },
     ],
   },
